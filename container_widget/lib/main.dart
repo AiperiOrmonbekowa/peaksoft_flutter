@@ -1,4 +1,4 @@
-import 'package:flutter/foundation.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -43,22 +43,22 @@ return Scaffold(
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
          children: [
-          Container(  child:Center(child: Text('белый',style: TextStyle(color: Colors.red),)) ,
-            height: 30,
+          Container(  height: 30,
             width: 60,
             decoration: BoxDecoration(color: Colors.blue,
             borderRadius: BorderRadius.circular(10)
 
+            ),  child:const Center(child: Text('белый',style: TextStyle(color: Colors.red),
             ),
+            ) ,
           ),
-          SizedBox(width: 50),
-           Container(child:
-                        Center(child: Text('белый' ,style: TextStyle(fontWeight: FontWeight.bold),)) ,
-            height: 40,
+         const SizedBox(width: 50),
+         Container(height: 40,
             width: 60,
             decoration: BoxDecoration(color: Colors.orange,
             borderRadius: BorderRadius.circular(10)
-            ),
+            ),child:
+                       const Center(child: Text('белый' ,style: TextStyle(fontWeight: FontWeight.bold),)) ,
           )
           ],
           ),
