@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 
   class SecondPage extends StatelessWidget {
   const SecondPage({
-    super.key, 
+    super.key,
+     required this.email,
     required this.name, 
     required this.profession, 
-    required this.email,
+     
     });
 
  final String name;

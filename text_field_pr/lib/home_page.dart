@@ -8,13 +8,13 @@ class HomePage extends StatelessWidget {
   String password = '';
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+     return  Scaffold(
      body: Container(
       height: double.infinity,
       width: double.infinity, 
-    decoration: const BoxDecoration(image: DecorationImage(
+      decoration: const BoxDecoration(image: DecorationImage(
       image: AssetImage('assets/images/ramadan.jpg'),
-    fit: BoxFit.cover ),
+      fit: BoxFit.cover ),
     ),
      child: Center(
        child: Column(
@@ -23,7 +23,6 @@ class HomePage extends StatelessWidget {
            SizedBox(
             width: 320,
              child: TextField(
-              
               decoration: InputDecoration(
                 hintText: 'email ',
                 prefixIcon: const Icon(Icons.person),
