@@ -8,19 +8,23 @@ import 'package:flutter/material.dart';
   Widget build(BuildContext context) {
 
  return  Scaffold(
+  backgroundColor: Colors.green,
       appBar: AppBar(title:const Text('Collections',),
+      backgroundColor: Colors.red,
       centerTitle: true,
       ),
       body:  Center(
         child:  Column(
           mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text(name[5], style: const TextStyle(fontSize: 30),),
+          Text(name.length.toString(), style: const TextStyle(fontSize: 30),),
         const  SizedBox(height: 80,),
-           Text(name[1], style: const TextStyle(fontSize: 30),),
+          //  Text(name[1], style: const TextStyle(fontSize: 30),),
+
         ],
         ),
       ),
+      floatingActionButton: FloatingActionButton(onPressed: (){}),
     );
   }
 }

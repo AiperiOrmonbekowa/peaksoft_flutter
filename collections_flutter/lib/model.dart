@@ -5,11 +5,11 @@
    String name4 = "bbbbbbb.";
   String na5 = 'ccccccc';
 
-     List name =[
+    Set name ={
       names, 
        es1,
        aaa2,
        name4,
        names3,
        na5
-       ];
+    };
