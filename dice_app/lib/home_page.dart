@@ -12,9 +12,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
    late ConfettiController _controllerCenter;
    void dice (){
-   
-     
-      setState(() {
+   setState(() {
          int left =  Random().nextInt(7);
     int right = Random().nextInt(7);
     if(left == 5 || right == 2){
@@ -31,8 +29,7 @@ class _HomePageState extends State<HomePage> {
 
    @override
   void dispose() {
-     
-    // dispose the controller
+     // dispose the controller
     _controllerCenter.dispose();
     super.dispose();
   }
@@ -64,9 +61,8 @@ class _HomePageState extends State<HomePage> {
                   emissionFrequency: 0.03,
                   numberOfParticles: 10,
                   gravity: 0, 
-                
-                  child: InkWell(
-                    onTap: (){
+                child: InkWell(
+                    onTap: () {
                       setState(() {
                     dice();
                       });
