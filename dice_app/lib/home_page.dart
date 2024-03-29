@@ -37,7 +37,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     Random random = Random();
     int left =  random.nextInt(6) + 1;
-    int right = random.nextInt(6) +1;
+    int right = random.nextInt(6) + 1;
     
     //Random bir class => dart:math ichinde bolot
     //random => exzempliary

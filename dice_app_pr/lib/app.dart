@@ -18,6 +18,7 @@ class _MyAppState extends State<MyApp> {
        useMaterial3: true,
       ),
       darkTheme: ThemeData(
+        primaryColor: Colors.white,
         useMaterial3: true,
         brightness: Brightness.dark,
       ),
@@ -25,13 +26,15 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [Row(
+          children: [
+            Row(
               children: [
                 TextButton(
                     onPressed: () {
                       setState(() {
                           themeMode = ThemeMode.light;
-                      });
+                      },
+                      );
                     },
                     child: const Text("light"),
                     ),
@@ -39,13 +42,16 @@ class _MyAppState extends State<MyApp> {
                     onPressed: () {
                       setState(() {
                             themeMode = ThemeMode.dark;
-                      });
+                      },
+                      );
                     },
                     child: const Text("dark"),
                     ),
               ],
-            ),],),
-      )
+            ),
+            ],
+            ),
+      ),
     );
   }
 }

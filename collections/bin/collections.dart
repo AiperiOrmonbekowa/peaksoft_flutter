@@ -12,3 +12,6 @@ print(setName);
 Map mapName = {'1': 'Asan', 'g': 'q'};// key value менен иштейт
 print(mapName['g']);
 }
+
+Map mapName = {'1': 'Asan', 'g': 'q'};// key value менен иштейт
+print(mapName['g'])
