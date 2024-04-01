@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'package:audioplayers/audioplayers.dart';
 import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
 
@@ -10,20 +11,25 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  final player = AudioPlayer();
    late ConfettiController _controllerCenter;
    void dice (){
    setState(() {
          int left =  Random().nextInt(7);
     int right = Random().nextInt(7);
-    if(left == 5 || right == 2){
-         _controllerCenter.play();}
-      });
-    
-   }
+    if(left == 5 || right == 2) {
+     _controllerCenter.play();
+     
+    //  player.play(AssetSource('notes/nota1.mp3'),
+    //  );
+      }
+      },
+      );
+    }
   @override
   void initState() {
-    _controllerCenter =
-        ConfettiController(duration: const Duration(seconds: 10));
+    _controllerCenter = ConfettiController(duration: const Duration(seconds: 10),
+        );
     super.initState();
   }
 
