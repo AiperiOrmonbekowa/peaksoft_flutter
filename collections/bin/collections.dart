@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'package:collections/collections.dart' as collections;
 
 void main() {
@@ -13,5 +15,3 @@ Map mapName = {'1': 'Asan', 'g': 'q'};// key value менен иштейт
 print(mapName['g']);
 }
 
-Map mapName = {'1': 'Asan', 'g': 'q'};// key value менен иштейт
-print(mapName['g']);
