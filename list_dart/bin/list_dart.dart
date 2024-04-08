@@ -1,35 +1,14 @@
+void main(List<String> args) {
+  String title = 'Hello';
+  title = 'Hello word ';
+  print(title);
 
-
-// import 'package:test/test.dart';
-
-// void main () {
-// print(age);
-// //  print(asan);
-// // print(uson);
-
-// }
-
-// String asan = 'jalshy bala';
-// String uson = 'jaman bala';
-
-// bir funcsya
-
-
-void main() {
-     printPerson(35, "Tom", );
-       print('_________________');
-     print(text);
-   
-
+  int san = 300;
+  san++;
+  san -= 2;
+  san = san ~/ 10;
+  print(san);
 }
-
-String text = 'salam';
-
-void printPerson( int age, String name,){
-   print("Age: $age \n");
-    print("name: $name"); 
-}
-
 
 
 
