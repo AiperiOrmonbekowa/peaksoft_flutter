@@ -57,15 +57,15 @@ return Scaffold(
             width: 60,
             decoration: BoxDecoration(color: Colors.orange,
             borderRadius: BorderRadius.circular(10)
-            ),child:
-                       const Center(child: Text('белый' ,style: TextStyle(fontWeight: FontWeight.bold),)) ,
-          )
+            ),
+            child: const Center(child: Text('белый' ,style: TextStyle(fontWeight: FontWeight.bold),),
+            ) ,
+          ),
           ],
           ),
-
-        ],
+         ],
       ),
       
-    );
+     );
   }
 }
