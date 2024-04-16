@@ -1,7 +1,9 @@
 
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
+
   runApp(const MyApp());
 }
 
@@ -39,7 +41,10 @@ class _MyHomePageState extends State<MyHomePage> {
 return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
+      
       children: [
+        Image.asset('assets/icons/star.png'),
+        SvgPicture.asset('assets/icons/africa.svg',color: Colors.amber,width: 200,),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
          children: [
@@ -47,8 +52,8 @@ return Scaffold(
             width: 60,
             decoration: BoxDecoration(color: Colors.blue,
             borderRadius: BorderRadius.circular(10)
-
-            ),  child:const Center(child: Text('белый',style: TextStyle(color: Colors.red),
+           ), 
+           child:const Center(child: Text('белый',style: TextStyle(color: Colors.red),
             ),
             ) ,
           ),
