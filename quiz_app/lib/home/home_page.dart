@@ -12,16 +12,16 @@ appBar: AppBar(
 title: const TextWisfet(text: 'Salam',),
 centerTitle: true,
  ),
+
  body:  Center(
    child: Column(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [
-    TextWisfet(text: 'Text 1'),
-      TextWisfet(text: 'Text 2'),
-        TextWisfet(text: 'Text 3'),
-        TextWisfet(text: '',),
-
-        Text(birList[0].uluty)
+    const TextWisfet(text: 'Text 1'),
+      const TextWisfet(text: 'Text 2'),
+        const TextWisfet(text: 'Text 3'),
+     const TextWisfet(text: '',),
+    Text(birList[0].uluty)
    ],),
  ),
   );

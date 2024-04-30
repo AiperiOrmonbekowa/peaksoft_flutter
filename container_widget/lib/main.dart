@@ -40,8 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
 return Scaffold(
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-      
+        mainAxisAlignment: MainAxisAlignment.center, 
       children: [
         Image.asset('assets/icons/star.png'),
         SvgPicture.asset('assets/icons/africa.svg',color: Colors.amber,width: 200,),
