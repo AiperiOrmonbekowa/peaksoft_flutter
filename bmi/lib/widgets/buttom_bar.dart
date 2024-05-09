@@ -2,25 +2,24 @@
 import 'package:bmi/app_text_style.dart';
 import 'package:flutter/material.dart';
 
-class buttomBar extends StatelessWidget {
-  const buttomBar({
+class ButtomBar extends StatelessWidget {
+  const ButtomBar({
     super.key,
   });
-
+  
   @override
   Widget build(BuildContext context) {
     // final width = MediaQuery.of(context).size.width;
     // final height = MediaQuery.of(context).size.height;
-
-                return InkWell(
+      return InkWell(
       onTap: () {
         showDialog<void>(
           context: context,
           builder: (BuildContext context) {
-            return Card(
+            return Card(                   
               margin: const EdgeInsets.symmetric(horizontal: 5, vertical: 70),
               color: const Color(0xff0b0120),
-              child: Column(
+              child: Column(               
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 // crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -47,7 +46,7 @@ class buttomBar extends StatelessWidget {
                     "Result",
                     style: AppTextStule.numStyle,
                   ),
-                  Container(
+                  SizedBox(
                     width: 400,
                     height: 500,
                       child: Card(

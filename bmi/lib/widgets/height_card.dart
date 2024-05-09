@@ -1,4 +1,3 @@
-
 import 'package:bmi/app_text_style.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +10,6 @@ class HeightCard extends StatelessWidget {
    final String text;
    final Widget widget;
 
-  @override
   
   @override
   Widget build(BuildContext context) {

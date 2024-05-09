@@ -23,9 +23,8 @@ class _MyHomePageState extends State<MyHomePage> {
         isTrue = !isTrue;
       });
     }
-
-    return Scaffold(
-      appBar: myAppBar(),
+    return Scaffold(  
+      appBar: myAppBar(), 
       body: Padding(
         padding: const EdgeInsets.symmetric(
           horizontal: 25,
@@ -108,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-      bottomNavigationBar: const buttomBar(),
+      bottomNavigationBar: const ButtomBar(),
     );
   }
 
