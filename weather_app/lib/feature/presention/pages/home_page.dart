@@ -20,8 +20,7 @@ class _HomePageState extends State<HomePage> {
     }
   @override
   Widget build(BuildContext context) {
-
-    return SafeArea(
+      return SafeArea(
       child: Scaffold(
         backgroundColor: const Color(0xFF16C4EA),
         body: Padding(
@@ -50,8 +49,6 @@ class _HomePageState extends State<HomePage> {
                       InkWell(
                         onTap: () {
                           setState(() {
-                          
-
                           });
                         },
                         child: Text(
