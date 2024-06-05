@@ -1,14 +1,14 @@
-class NewModel{
-  
+class NewModel {
   NewModel({
-    required this.name, 
-    required this.airDate, 
-    required this.episode, 
-    required this.id
-    });
-  final String name;
-    final String airDate;
-      final String episode;
-      final int id;
+    required this.id,
+    required this.main,
+    required this.description, required this.city,
+ 
+  });
+
+  final int id;
+  final String main;
+  final String description;
+   final String city;
 
 }
